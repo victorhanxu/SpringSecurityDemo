@@ -7,12 +7,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class TestController {
 
-    //@Autowired
-    //PasswordEncoder encoder;
-
     @GetMapping("/security")
     public String hello () {
-        return "Hello, This is Spring Security!!!";
+        return "Hello, This is Spring Security!";
     }
 
 }
