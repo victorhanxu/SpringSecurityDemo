@@ -9,7 +9,7 @@ public class TestController {
 
     @GetMapping("/security")
     public String hello () {
-        return "Hello, This is Spring Security!";
+        return "Spring Security: UserDetailsService.";
     }
 
 }
