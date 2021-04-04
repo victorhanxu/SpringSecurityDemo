@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/JavaEncryptionDemo/JavaEncryptionDemo.iml" filepath="$PROJECT_DIR$/JavaEncryptionDemo/JavaEncryptionDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringSecurity01/SpringSecurity01.iml" filepath="$PROJECT_DIR$/SpringSecurity01/SpringSecurity01.iml" />
     </modules>
   </component>
