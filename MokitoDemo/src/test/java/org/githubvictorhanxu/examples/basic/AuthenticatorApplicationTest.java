@@ -1,5 +1,8 @@
-package org.githubvictorhanxu.examples;
+package org.githubvictorhanxu.examples.basic;
 
+import org.githubvictorhanxu.examples.mokito.basic.AuthenticatorApplication;
+import org.githubvictorhanxu.examples.mokito.basic.AuthenticatorInterface;
+import org.githubvictorhanxu.examples.mokito.basic.EmptyCredentialsException;
 import org.junit.Test;
 import org.mockito.Mockito;
 
@@ -7,6 +10,7 @@ import static org.junit.Assert.assertFalse;
 import static org.mockito.Mockito.*;
 
 public class AuthenticatorApplicationTest {
+
         @Test (expected = EmptyCredentialsException.class)
         public void testAuthenticate()  throws EmptyCredentialsException{
             AuthenticatorInterface authenticatorMock;

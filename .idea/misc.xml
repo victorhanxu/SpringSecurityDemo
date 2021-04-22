@@ -5,7 +5,13 @@
       <list>
         <option value="$PROJECT_DIR$/SpringSecurity01/pom.xml" />
         <option value="$PROJECT_DIR$/MokitoDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringDemo/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/MokitoDemo/SpringDemo/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="14" project-jdk-type="JavaSDK">

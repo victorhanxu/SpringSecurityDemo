@@ -1,4 +1,4 @@
-package org.githubvictorhanxu.examples;
+package org.githubvictorhanxu.examples.mokito.basic;
 
 public class AuthenticatorApplication {
     private AuthenticatorInterface authenticator;

@@ -6,12 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="MokitoDemo" />
         <module name="SpringSecurity01" />
+        <module name="SpringDemo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="MokitoDemo" target="14" />
+      <module name="SpringDemo" target="1.8" />
       <module name="SpringSecurity01" target="1.8" />
     </bytecodeTargetLevel>
   </component>
