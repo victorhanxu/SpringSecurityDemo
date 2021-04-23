@@ -8,12 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="SpringSecurity01" />
         <module name="SpringDemo" />
+        <module name="ssl-example" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="MokitoDemo" target="14" />
       <module name="SpringDemo" target="1.8" />
       <module name="SpringSecurity01" target="1.8" />
+      <module name="ssl-example" target="1.6" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
